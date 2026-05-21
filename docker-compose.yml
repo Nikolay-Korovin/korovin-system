@@ -187,11 +187,11 @@ services:
   # persons-api
   # api
 
-  volumes:
-    artifacts:
-    tempo_data:
-    nexus_data:
-    loki_data:
-    loki_chunks:
-    loki_index:
-    loki_rules:
+volumes:
+  artifacts:
+  tempo_data:
+  nexus-data:
+  loki_data:
+  loki_chunks:
+  loki_index:
+  loki_rules:
