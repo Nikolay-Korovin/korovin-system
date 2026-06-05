@@ -58,7 +58,7 @@ services:
     container_name: individuals-keycloak
     command:
       - start-dev
-      - import-realm
+      - --import-realm
       - --health-enabled=true
     ports:
       - "8080:8080"
